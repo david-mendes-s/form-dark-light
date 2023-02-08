@@ -32,3 +32,4 @@ export default App
 
 /* git config --global user.name "david-mendes-s"
 git config --global user.email david.a.mendes.s@gmail.com */
+git remote add origin git@github.com:david-mendes-s/variable-theme.git
