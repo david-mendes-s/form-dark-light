@@ -74,7 +74,7 @@ function App() {
             </div>  
         </div>
       </main>
-     {/*  <ButtonThemes darkTheme={darkTheme} handleDarkTheme={handleDarkTheme}/> */} 
+      <ButtonThemes darkTheme={darkTheme} handleDarkTheme={handleDarkTheme}/> 
     </div>
     
   )
