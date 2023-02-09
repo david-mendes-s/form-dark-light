@@ -15,26 +15,27 @@ function App() {
   return (
     <div className={darkTheme}>
       
-      <main className='flex items-stretch max-md:flex-col dark:text-white'>
+      <main className='w-full flex max-md:flex-col dark:text-white h-screen'>
 
-        <div className='flex justify-center items-center flex-1 h-screen dark:bg-[#0A0D14]
-          max-md:py-10
-        '>
-            <div className='flex flex-col justify-center px-10'>
+        <div className='flex justify-center items-center flex-[1] max-md:hidden
+            dark:bg-[#0A0D14] p-6'>
+            
+            <div className='flex flex-col justify-center'>
                 <h1 className='text-4xl font-black leading-9 mb-3'>
                   &lt;Feita para <br/> <strong className='text-[#00DEFE]'>
                     Desenvolvedores</strong>/&gt;
                 </h1>
                 <p className='text-[#121725] dark:text-[#AFB5C3] mb-6'>Conecte-se e faça parte de uma comunidade 
                     construída <br/> por desenvolvedores e crie novas oportunidades.</p>
-                <img src={Tela} alt="tela" width={521} height={424}/>
+                <img src={Tela} alt="tela" className=''/>
             </div>
+
         </div> 
         
 
-        <div className='flex flex-1 flex-col justify-center items-center h-screen 
-          bg-[#F3F5F9] dark:bg-[#10141E] max-md:py-10 border-l border-[#dbdee4] dark:border-[0]'>
-            <div className='flex flex-col px-10'>
+        <div className='flex flex-[1] flex-col justify-center items-center 
+          bg-[#F3F5F9] dark:bg-[#10141E] border-l border-[#dbdee4] dark:border-[0] p-4'>
+            <div className='flex flex-col'>
               <h3 className='font-black mb-6 text-2xl'>Login</h3>
               <form className='max-w-sm'>
                   <label className='font-semibold text-sm'>E-mail</label>
@@ -73,7 +74,7 @@ function App() {
             </div>  
         </div>
       </main>
-      <ButtonThemes darkTheme={darkTheme} handleDarkTheme={handleDarkTheme}/> 
+     {/*  <ButtonThemes darkTheme={darkTheme} handleDarkTheme={handleDarkTheme}/> */} 
     </div>
     
   )
