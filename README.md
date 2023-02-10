@@ -13,15 +13,15 @@ Este projeto é uma aplicação de formulário simples que permite ao usuário a
 
 1. Clone este repositório usando o seguinte comando:
 
-git clone https://github.com/david-mendes-s/variable-theme.git
+  git clone https://github.com/david-mendes-s/variable-theme.git
 
 2. Acesse a pasta do projeto e instale as dependências com o seguinte comando:
 
-npm install
+  npm install
 
 3. Inicie a aplicação com o seguinte comando:
 
-npm start
+  npm start
 
 ## Considerações finais
 
